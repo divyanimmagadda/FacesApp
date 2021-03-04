@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "dHkF+JElgVJF2UXcegazs/256ScokVUQ1E8fnWSBfMxqOIT83a2EpR8sNkGvhLdSlRTGfmWrGKPNmljd8KxLjA==",
+  "success": true,
+  "projectFilePath": "C:\\microservice-rabbitmq-docker\\FacesAndFacesZips\\FacesAndFacesZips\\Faces\\FacesApi\\FacesApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\chunduru\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\chunduru\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\chunduru\\.nuget\\packages\\opencvsharp4\\4.3.0.20200405\\opencvsharp4.4.3.0.20200405.nupkg.sha512",
+    "C:\\Users\\chunduru\\.nuget\\packages\\opencvsharp4.runtime.win\\4.3.0.20200405\\opencvsharp4.runtime.win.4.3.0.20200405.nupkg.sha512",
+    "C:\\Users\\chunduru\\.nuget\\packages\\opencvsharp4.windows\\4.3.0.20200405\\opencvsharp4.windows.4.3.0.20200405.nupkg.sha512",
+    "C:\\Users\\chunduru\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

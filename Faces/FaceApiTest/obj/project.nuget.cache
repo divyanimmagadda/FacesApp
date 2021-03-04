@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "+pZVGnHjfE1KFp6H12J7UOmzpwqj/rKNzULVdUeFXaSWKf9iyt013h5oYOKatlc6QCjCwiyftIYOU3KknY4IvA==",
+  "success": true,
+  "projectFilePath": "C:\\microservice-rabbitmq-docker\\FacesAndFacesZips\\FacesAndFacesZips\\Faces\\FaceApiTest\\FaceApiTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\chunduru\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0-preview.2.20160.6\\microsoft.netcore.platforms.5.0.0-preview.2.20160.6.nupkg.sha512",
+    "C:\\Users\\chunduru\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0-preview.2.20160.6\\microsoft.win32.systemevents.5.0.0-preview.2.20160.6.nupkg.sha512",
+    "C:\\Users\\chunduru\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\chunduru\\.nuget\\packages\\system.drawing.common\\5.0.0-preview.2.20160.6\\system.drawing.common.5.0.0-preview.2.20160.6.nupkg.sha512"
+  ],
+  "logs": []
+}

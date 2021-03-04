@@ -1,0 +1,218 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\microservice-rabbitmq-docker\\FacesAndFacesZips\\FacesAndFacesZips\\CustomerNotification\\NotificationService\\NotificationService.csproj": {}
+  },
+  "projects": {
+    "C:\\microservice-rabbitmq-docker\\FacesAndFacesZips\\FacesAndFacesZips\\CustomerNotification\\EmailService\\EmailService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\microservice-rabbitmq-docker\\FacesAndFacesZips\\FacesAndFacesZips\\CustomerNotification\\EmailService\\EmailService.csproj",
+        "projectName": "EmailService",
+        "projectPath": "C:\\microservice-rabbitmq-docker\\FacesAndFacesZips\\FacesAndFacesZips\\CustomerNotification\\EmailService\\EmailService.csproj",
+        "packagesPath": "C:\\Users\\chunduru\\.nuget\\packages\\",
+        "outputPath": "C:\\microservice-rabbitmq-docker\\FacesAndFacesZips\\FacesAndFacesZips\\CustomerNotification\\EmailService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\chunduru\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "NETCore.MailKit": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\microservice-rabbitmq-docker\\FacesAndFacesZips\\FacesAndFacesZips\\CustomerNotification\\NotificationService\\NotificationService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\microservice-rabbitmq-docker\\FacesAndFacesZips\\FacesAndFacesZips\\CustomerNotification\\NotificationService\\NotificationService.csproj",
+        "projectName": "NotificationService",
+        "projectPath": "C:\\microservice-rabbitmq-docker\\FacesAndFacesZips\\FacesAndFacesZips\\CustomerNotification\\NotificationService\\NotificationService.csproj",
+        "packagesPath": "C:\\Users\\chunduru\\.nuget\\packages\\",
+        "outputPath": "C:\\microservice-rabbitmq-docker\\FacesAndFacesZips\\FacesAndFacesZips\\CustomerNotification\\NotificationService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\chunduru\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\microservice-rabbitmq-docker\\FacesAndFacesZips\\FacesAndFacesZips\\CustomerNotification\\EmailService\\EmailService.csproj": {
+                "projectPath": "C:\\microservice-rabbitmq-docker\\FacesAndFacesZips\\FacesAndFacesZips\\CustomerNotification\\EmailService\\EmailService.csproj"
+              },
+              "C:\\microservice-rabbitmq-docker\\FacesAndFacesZips\\FacesAndFacesZips\\Faces.SharedLib\\Messaging.InterfacesConstants\\Messaging.InterfacesConstants.csproj": {
+                "projectPath": "C:\\microservice-rabbitmq-docker\\FacesAndFacesZips\\FacesAndFacesZips\\Faces.SharedLib\\Messaging.InterfacesConstants\\Messaging.InterfacesConstants.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MassTransit": {
+              "target": "Package",
+              "version": "[6.2.5, )"
+            },
+            "MassTransit.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.2.5, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[6.2.5, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0-preview.3.20215.2, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[5.0.0-preview.3.20215.2, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[5.0.0-preview.3.20214.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\microservice-rabbitmq-docker\\FacesAndFacesZips\\FacesAndFacesZips\\Faces.SharedLib\\Messaging.InterfacesConstants\\Messaging.InterfacesConstants.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\microservice-rabbitmq-docker\\FacesAndFacesZips\\FacesAndFacesZips\\Faces.SharedLib\\Messaging.InterfacesConstants\\Messaging.InterfacesConstants.csproj",
+        "projectName": "Messaging.InterfacesConstants",
+        "projectPath": "C:\\microservice-rabbitmq-docker\\FacesAndFacesZips\\FacesAndFacesZips\\Faces.SharedLib\\Messaging.InterfacesConstants\\Messaging.InterfacesConstants.csproj",
+        "packagesPath": "C:\\Users\\chunduru\\.nuget\\packages\\",
+        "outputPath": "C:\\microservice-rabbitmq-docker\\FacesAndFacesZips\\FacesAndFacesZips\\Faces.SharedLib\\Messaging.InterfacesConstants\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\chunduru\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
